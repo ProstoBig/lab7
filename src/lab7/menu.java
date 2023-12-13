@@ -23,16 +23,18 @@ public class menu {
 
             switch (choice) {
                 case 1:
-                    System.out.println("1");
                     MusicalInstrument Guitar = new Guitar();
                     Guitar.play();
                     break;
                 case 2:
-                    System.out.println("2");
                     MusicalInstrument trumpet = new Trumpet();
                     trumpet.play();
                     break;
                 case 3:
+                    MusicalInstrument clarinet = new Clarinet();
+                    clarinet.play();
+                    break;
+                case 4:
                     System.out.println("Вихід");
                     System.exit(0);
                 default:
