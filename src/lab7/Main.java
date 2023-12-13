@@ -92,3 +92,11 @@ class Trumpet extends WindInstrument {
         super("труба", "робить звук труби", "бронзи");
     }
 }
+/**
+ * Представляє кларнет як духовий музичний інструмент.
+ */
+class Clarinet extends WindInstrument {
+    public Clarinet() {
+        super("кларнет", "видає звук кларнету", "дерева");
+    }
+}
